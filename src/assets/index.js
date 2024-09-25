@@ -44,6 +44,7 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
+import weather from './projects/weather.jpg';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
@@ -87,6 +88,7 @@ export {
   tailwind,
   typescript,
   komikult,
+  weather,
   leaderboard,
   math,
   movie,

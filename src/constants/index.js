@@ -18,6 +18,7 @@ import {
   rubyrails,
   graphql,
   komikult,
+  weather,
   leaderboard,
   math,
   movie,
@@ -46,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Java',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Python',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'C++',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Java Script',
     icon: prototyping,
   },
 ];
@@ -124,40 +125,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'School',
+    company_name: 'Tsing Hua International School',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: '2022 - now',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Robotics Competition',
+    company_name: 'First Robotics Competition',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: '2023 - 2024',
   },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+  // {
+  //   title: 'Junior Software Engineer',
+  //   company_name: 'Kelhel',
+  //   icon: kelhel,
+  //   iconBg: '#333333',
+  //   date: 'May 2022 - Oct 2022',
+  // },
+  // {
+  //   title: 'Full Stack Developer',
+  //   company_name: 'Diversity Cyber Council',
+  //   icon: dcc,
+  //   iconBg: '#333333',
+  //   date: 'Sep 2022 - Present',
+  // },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Weather app',
+    description: 'A weather app made by Java',
     tags: [
       {
         name: 'react',
@@ -172,9 +173,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: weather,
+    repo: 'https://github.com/Webstie/Weather',
+    // demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
